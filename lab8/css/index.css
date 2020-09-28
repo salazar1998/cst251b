@@ -1,0 +1,54 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: DarkCyan;
+    padding: 20px;
+    font-size: 120%;
+    border: 4px soild black;
+    margin: 3px soild black;
+}
+
+div#content {
+    padding: 20px;
+    background-color: SkyBlue;
+    height: 80vh;
+}
+
+#content, img{
+    border: 6px solid black;
+}
+
+h1, h2, h3 {
+    font-family: "Courier New", monospace;
+}
+
+div#text {
+    border: 3px solid black;
+    background-color: #d5f4e6;
+    margin:auto;
+}
+
+p.unique {
+    color: DarkCyan;
+}
+
+img {
+    float: right;
+    width: 300px;
+    height: auto;
+
+}
+
+img:hover{
+  width: 500px;
+  height; auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
