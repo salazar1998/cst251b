@@ -1,0 +1,99 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: DarkCyan;
+    padding: 20px;
+    font-size: 120%;
+    border: 4px soild black;
+    margin: 3px soild black;
+}
+
+div#content {
+    padding: 25px;
+    background-color: SkyBlue;
+    height: 90vh;
+    margin: 20px;
+    border: dashed 50px 618685;
+}
+nav#links { 
+  position: sticky; 
+  top: 0px; 
+  background-color: black; 
+  border: 3px solid #000000;
+ }
+
+#content, img{
+
+    border: 30px solid #618685;
+    border-style: ridge;
+    border-radius: 50px;
+}
+
+#sidebar {
+
+  width:30%;
+  min-width: 300px;
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  background-color: #618685;
+
+
+}
+
+#sidebar p {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 40px;
+  color: #white;
+  display: inline-block;
+}
+
+h1, h2, h3 {
+    font-family: 'Caesar Dressing';
+}
+
+div#text {
+    border: 15px solid #618685;
+    border-style: ridge;
+    background-color: #d5f4e6;
+    margin: 20px;
+    width: 600px;
+}
+
+p.unique {
+    color: DarkCyan;
+}
+
+img {
+    float: right;
+    width: 250px;
+    height: auto;
+    margin: 20px;
+
+}
+
+img:hover{
+  width: 300px;
+  float: right;
+  height; auto;
+}
+span {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 15px solid #618685;
+    border-style: ridge;
+    background-color: #d5f4e6;
+    margin: 20px;
+    width: 600px;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
