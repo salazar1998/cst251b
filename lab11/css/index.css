@@ -15,10 +15,14 @@ div#content {
     border: dashed 50px 618685;
 }
 nav#links { 
-  position: sticky; 
-  top: 0px; 
-  background-color: black; 
-  border: 3px solid #000000;
+  position: sticky;
+  top: 0;
+  text-decoration: none;
+  color: black;
+  border: 15px solid #618685;
+  border-style: ridge;
+  background-color: #d5f4e6;
+  width: 100%;
  }
 
 #content, img{
@@ -29,7 +33,6 @@ nav#links { 
 }
 
 #sidebar {
-
   width:30%;
   min-width: 300px;
   position: absolute;
@@ -37,8 +40,6 @@ nav#links { 
   top: 0;
   right: 0;
   background-color: #618685;
-
-
 }
 
 #sidebar p {
@@ -50,14 +51,14 @@ nav#links { 
 }
 
 h1, h2, h3 {
-    font-family: 'Caesar Dressing';
+  font-family: 'Caesar Dressing';
 }
 
 div#text {
     border: 15px solid #618685;
     border-style: ridge;
     background-color: #d5f4e6;
-    margin: 20px;
+    margin: 10px;
     width: 600px;
 }
 
@@ -67,30 +68,16 @@ p.unique {
 
 img {
     float: right;
-    width: 250px;
+    width: 55%;
     height: auto;
     margin: 20px;
-
 }
 
-img:hover{
-  width: 300px;
-  float: right;
-  height; auto;
-}
+
+
 span {
   text-decoration: underline;
   text-decoration-style: wavy;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    border: 15px solid #618685;
-    border-style: ridge;
-    background-color: #d5f4e6;
-    margin: 20px;
-    width: 600px;
 }
 
 a:hover {
