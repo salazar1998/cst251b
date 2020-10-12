@@ -1,0 +1,87 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: DarkCyan;
+    padding: 20px;
+    font-size: 120%;
+    border: 4px soild black;
+    margin: 3px soild black;
+}
+div{
+  width: 30%;
+}
+div#floated{
+  float: right;
+}
+div#center-horz{
+  text-align: center;
+}
+div#center-img{
+  margin-left: auto;
+  margin-right: auto;
+}
+div#center-both{
+  margin-left: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+}
+
+
+div#content {
+    padding: 25px;
+    background-color: SkyBlue;
+    height: 90vh;
+    margin: 20px;
+    border: dashed 50px 618685;
+}
+nav#links { 
+  position: sticky;
+  top: 0;
+  text-decoration: none;
+  color: black;
+  border: 15px solid #618685;
+  border-style: ridge;
+  background-color: #d5f4e6;
+  width: 100%;
+ }
+
+#content, img{
+
+    border: 30px solid #618685;
+    border-style: ridge;
+    border-radius: 50px;
+}
+
+h1, h2, h3 {
+  font-family: 'Caesar Dressing';
+}
+
+div#text {
+    border: 15px solid #618685;
+    border-style: ridge;
+    background-color: #d5f4e6;
+    margin: 10px;
+    width: 30%;
+}
+
+p.unique {
+    color: DarkCyan;
+}
+
+img {
+    float: right;
+    width: 100px;
+    height: auto;
+    margin: 20px;
+}
+
+span {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
