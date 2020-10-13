@@ -11,13 +11,14 @@ div{
 }
 div#floated{
   float: right;
+  clear: both;
 }
 div#center-horz{
   text-align: center;
 }
 div#center-img{
-  margin-left: auto;
-  margin-right: auto;
+  width: 150px;
+  height: auto;
 }
 div#center-both{
   margin-left: 0;
