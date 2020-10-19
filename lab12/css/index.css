@@ -26,6 +26,7 @@ div#center-both{
   top: 50%;
   left: 50%;
   transform: translate(-50% ,-50%);
+  text text-transform:
 }
 
 
@@ -39,7 +40,9 @@ div#content {
 nav#links { 
   position: sticky;
   top: 0;
-  text-decoration: none;
+  text-decoration:  ;
+  text-decoration-style:
+
   color: black;
   border: 15px solid #618685;
   border-style: ridge;
