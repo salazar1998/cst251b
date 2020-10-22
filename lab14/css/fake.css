@@ -1,0 +1,153 @@
+body {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  z-index: -100;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+nav#links {
+  padding: 25px;
+}
+
+div.left p {
+  font-family: 'Roboto', sans-serif;
+  float:left;
+  color: gray;
+  padding: 10px;
+}
+
+div.right p {
+  font-family: 'Roboto', sans-serif;
+  float:right;
+  color: gray;
+  padding-right: 20%;
+}
+
+div#heading {
+ text-align: center;
+}
+.text{
+  position:absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  font-size: 12em;
+  letter-spacing: 10px;
+}
+
+ul li:nth-child(1){
+  color: #f2e394;
+}
+
+ul li:nth-child(2){
+  color: #f2ae72;
+}
+
+ul li:nth-child(3){
+  color: #96ceb4;
+}
+
+ul li:nth-child(4){
+  color: #d96459;
+}
+
+ul li:nth-child(5){
+  color: #f2ae72;
+}
+
+p.H{
+  color: #f2e394;
+
+}
+p.e{
+  color: #f2ae72;
+
+}
+p.l{
+  color: #96ceb4;
+
+}
+p.o{
+  color: #d96459;
+
+}
+p.dot{
+  color: #f2ae72;
+
+}
+
+div#text {
+  text-align: center;
+}
+
+div#text p {
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+button.blue{
+  font-family: 'Roboto', sans-serif;
+  background-color: #0080FF;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+button.white{
+  background-color: white;
+  border-color: grey;
+  border-radius: 50px;
+  border-width: thin;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 5%;
+  left: 90%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+
+}
