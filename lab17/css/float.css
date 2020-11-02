@@ -1,0 +1,57 @@
+body{
+  background-color: DarkCyan;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header, section, aside, footer, nav{
+  border: 5px;
+  border-color: black;
+  border-style: dashed;
+
+}
+img{
+  width: 30%;
+}
+header{
+  text-align: center;
+  display: block;
+}
+.text{
+  font-size: 10px;
+  font-style: oblique;
+  font-family: monospace;
+  font-variant-ligatures: normal;
+}
+
+section{
+  width: 60%;
+  float:left;
+  padding: 10px;
+  margin: 8px;
+  height: auto;
+}
+
+aside{
+  text-align: center;
+  float: right;
+  width: 40%;
+
+}
+nav{
+  text-align: center;
+  position: absolute;
+  margin: 8px;
+  left: 0px;
+  bottom: 90px;
+  width: 98%;
+}
+footer{
+  text-align: center;
+  position: absolute;
+  margin: 8px;
+  left: 0px;
+  bottom: 0px;
+  width: 98%;
+
+}

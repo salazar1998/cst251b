@@ -1,0 +1,88 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+header {
+  border: 5px;
+  border-style: double;
+  border-color: black;
+  margin: 10px;
+  background-color: DarkCyan;
+  padding: 10px;
+}
+
+main {
+  border: 5px;
+  border-style: double;
+  border-color: black;
+  margin: 10px;
+  background-color: DarkCyan;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+  margin: 10px;
+  background-color: DarkCyan;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+aside{
+  border: 5px;
+  border-style: double;
+  border-color: black;
+  margin: 10px;
+  background-color:DarkCyan;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+}
+
+nav {
+  border: 5px;
+  border-style: double;
+  border-color: black;
+  margin: 10px;
+  word-spacing: 10px;
+  background-color: white;
+  padding: 10px;
+  align-items: flex-start;
+}
+
+.mid {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  border: 5px;
+  border-style: double;
+  border-color: black;
+  margin: 10px;
+  word-spacing: 10px;
+  background-color: white;
+  padding: 10px;
+  align-items: flex-start;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
