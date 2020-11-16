@@ -1,0 +1,45 @@
+body{
+  background-color: #cab9c7;
+
+}
+
+.col{
+  min-height:200px;
+  border: solid 10px #482478;
+  border-style: ridge;
+  border-radius: 10px;
+}
+
+.col h1, .col h2{
+  text-align: center;
+  border: solid 10px #87399d;
+  border-radius: 10px;
+  border-style: ridge;
+}
+.row{
+  border: solid 1px gray;
+}
+.navbar-brand, {
+  color: #cab9c7;
+}
+.dropdown-item {
+  color: #87399d;
+}
+.btn-warning {
+  background-color: #d4d1c5;
+  border: none;
+
+}
+.btn-warning:hover{
+  background-color: #87399d;
+  border: none;
+}
+img{
+  width: 40%;
+}
+nav{
+  color: #cab9c7;
+}
+.bg-light{
+ color:  #87399d;
+}
